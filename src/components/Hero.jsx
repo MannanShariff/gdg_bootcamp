@@ -14,7 +14,8 @@ const Hero = () => {
                         Welcome to the Future
                     </h2>
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                        Bootcamp <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">2025</span>
+                        BOOT CAMP
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">2025</span>
                         <br />
                         <span className="text-4xl md:text-6xl mt-2 block">Learn. Build. Grow.</span>
                     </h1>
