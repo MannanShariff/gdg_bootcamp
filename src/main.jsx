@@ -8,15 +8,13 @@ import App from "./App.jsx";
 import Quiz from "./components/Quiz.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        {/* First page user sees */}
-        <Route path="/" element={<Quiz />} />
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/quiz" element={<Quiz />} />
+                <Route path="/" element={<App />} />
+            </Routes>
+        </BrowserRouter>
 
-        {/* Actual website */}
-        <Route path="/home" element={<App />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+    </React.StrictMode>
 );

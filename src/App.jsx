@@ -12,8 +12,8 @@ import Footer from './components/Footer';
 function App() {
     const location = useLocation();
 
-    // Hide navbar ONLY on quiz page
-    const hideNavbar = location.pathname === "/";
+    const hideNavbar = location.pathname === "/quiz";
+
 
     return (
         <main className="bg-dark-bg min-h-screen text-white selection:bg-neon-purple selection:text-white relative">

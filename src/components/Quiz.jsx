@@ -9,7 +9,7 @@ const Quiz = () => {
     if (answer === correctAnswer) {
       setMessage("Correct! Redirecting...");
       setTimeout(() => {
-        window.location.href = "/home"; // redirect to actual app
+        window.location.href = "/"; // redirect to actual app
       }, 1200);
     } else {
       setMessage("❌ Wrong answer! Try again.");
@@ -21,7 +21,7 @@ const Quiz = () => {
 
       {/* Your uploaded image */}
       <img 
-        src="/public/assets/quiz.jpg"
+        src="/assets/quiz.jpg"
         alt="Quiz"
         className="w-full max-w-lg mb-8"
       />
