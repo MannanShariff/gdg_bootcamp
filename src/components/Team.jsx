@@ -97,7 +97,7 @@ const teamMembers = [
 
 const Team = () => {
     return (
-        <section className="py-20 px-4 bg-dark-bg">
+        <section id="team" className="py-20 px-4 bg-dark-bg">
             <div className="max-w-6xl mx-auto">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
