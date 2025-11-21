@@ -9,7 +9,7 @@ const Quiz = () => {
     if (answer === correctAnswer) {
       setMessage("Correct! Redirecting...");
       setTimeout(() => {
-        window.location.href = "/"; // redirect to actual app
+        window.location.href = "/home"; // redirect to actual app
       }, 1200);
     } else {
       setMessage("❌ Wrong answer! Try again.");
@@ -21,7 +21,7 @@ const Quiz = () => {
 
       {/* Your uploaded image */}
       <img 
-        src="/public/quiz.png"
+        src="E:\bootcamp\public\quiz.png"
         alt="Quiz"
         className="w-full max-w-lg mb-8"
       />
@@ -31,7 +31,7 @@ const Quiz = () => {
       <div className="grid gap-4 w-full max-w-md">
         <button 
           onClick={() => handleClick("bootcamp")}
-          className="bg-neon-blue px-6 py-3 rounded-lg font-bold hover:bg-neon-purple transition"
+          className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-neon-purple transition"
         >
           BOOTCAMP
         </button>
