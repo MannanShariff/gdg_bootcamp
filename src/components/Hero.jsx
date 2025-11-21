@@ -10,17 +10,21 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
+                    {/* Updated Subheading */}
                     <h2 className="text-neon-blue font-medium tracking-widest mb-4 uppercase text-sm md:text-base">
-                        Welcome to the Future
+                        Welcome Juniors to the World of Tech 2.0
                     </h2>
+
+                    {/* Updated Heading */}
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                        BOOTCAMP
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">-2025</span>
-                        <br />
-                        <span className="text-4xl md:text-6xl mt-2 block">Learn. Build. Grow.</span>
+                        BOOT CAMP 
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">
+                            &nbsp;2025
+                        </span>
                     </h1>
+
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-                        google developers group on campus Dr AIT
+                        Google Developers Group • On Campus • Dr AIT
                     </p>
                 </motion.div>
 
