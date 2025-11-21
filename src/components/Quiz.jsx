@@ -31,7 +31,7 @@ const Quiz = () => {
       <div className="grid gap-4 w-full max-w-md">
         <button 
           onClick={() => handleClick("bootcamp")}
-          className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-neon-purple transition"
+          className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-gray-600 transition"
         >
           BOOTCAMP
         </button>
@@ -58,7 +58,7 @@ const Quiz = () => {
         </button>
       </div>
 
-      {message && <p className="mt-6 text-xl font-semibold text-neon-green">{message}</p>}
+      {message && <p className="mt-6 text-xl font-semibold text-gray-400">{message}</p>}
     </section>
   );
 };
