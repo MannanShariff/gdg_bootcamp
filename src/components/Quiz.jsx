@@ -21,7 +21,7 @@ const Quiz = () => {
 
       {/* Your uploaded image */}
       <img 
-        src="/public/assets/quiz.png"
+        src="/public/assets/quiz.jpg"
         alt="Quiz"
         className="w-full max-w-lg mb-8"
       />
