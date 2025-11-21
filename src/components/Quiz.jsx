@@ -11,7 +11,7 @@ const Quiz = () => {
     if (answer === correctAnswer) {
       setMessage("Correct! Redirecting...");
       setTimeout(() => {
-        navigate("/"); // <-- FIXED
+        navigate("/website"); // <-- FIXED
       }, 800);
     } else {
       setMessage("❌ Wrong answer! Try again.");

@@ -13,7 +13,7 @@ function App() {
     const location = useLocation();
 
     // Hide navbar ONLY on quiz page
-    const hideNavbar = location.pathname === "/quiz";
+    const hideNavbar = location.pathname === "/";
 
     return (
         <main className="bg-dark-bg min-h-screen text-white relative">

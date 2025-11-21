@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Quiz />} />
+        <Route path="/website" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
