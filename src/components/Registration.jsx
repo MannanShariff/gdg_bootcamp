@@ -18,7 +18,7 @@ const Registration = () => {
                     </p>
 
                     <a
-                        href="https://forms.google.com" // Placeholder
+                        href="https://forms.gle/19wjrmogakbnY8Ap7" // Placeholder
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-10 py-4 bg-neon-blue text-black font-bold text-lg rounded-full hover:bg-white hover:shadow-[0_0_30px_rgba(0,243,255,0.5)] transition-all duration-300"

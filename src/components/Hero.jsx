@@ -34,7 +34,7 @@ const Hero = () => {
                     transition={{ delay: 0.5, duration: 0.5 }}
                 >
                     <a
-                        href="https://forms.google.com" // Placeholder
+                        href="https://forms.gle/19wjrmogakbnY8Ap7" // Placeholder
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-8 py-4 bg-transparent border-2 border-neon-green text-neon-green font-bold rounded-full hover:bg-neon-green hover:text-black transition-all duration-300 shadow-[0_0_20px_rgba(57,255,20,0.3)] hover:shadow-[0_0_40px_rgba(57,255,20,0.6)]"
