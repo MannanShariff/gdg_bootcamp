@@ -11,7 +11,7 @@ const Quiz = () => {
     if (answer === correctAnswer) {
       setMessage("Correct! Redirecting...");
       setTimeout(() => {
-        navigate("/website"); 
+        navigate("/website");
       }, 800);
     } else {
       setMessage("❌ Wrong answer! Try again.");
@@ -25,9 +25,12 @@ const Quiz = () => {
       <div className="flex flex-col md:flex-row gap-12 items-center max-w-5xl w-full">
 
         {/* Left: Image */}
-        <img 
-          src="/assets/quiz.jpg"
-          alt="Quiz"
+        <video
+          src="/assets/quiz.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full max-w-md rounded-lg shadow-lg"
         />
 
@@ -39,29 +42,29 @@ const Quiz = () => {
           </h1>
 
           <div className="grid gap-4 w-full">
-            <button 
-              onClick={() => handleClick("bootcamp")} 
+            <button
+              onClick={() => handleClick("bootcamp")}
               className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-gray-600 transition w-full"
             >
               BOOTCAMP
             </button>
 
-            <button 
-              onClick={() => handleClick("campboot")} 
+            <button
+              onClick={() => handleClick("campboot")}
               className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-gray-600 transition w-full"
             >
               CampBoot
             </button>
 
-            <button 
-              onClick={() => handleClick("tentboot")} 
+            <button
+              onClick={() => handleClick("tentboot")}
               className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-gray-600 transition w-full"
             >
               TentBoot
             </button>
 
-            <button 
-              onClick={() => handleClick("adventure")} 
+            <button
+              onClick={() => handleClick("adventure")}
               className="bg-gray-700 px-6 py-3 rounded-lg font-bold hover:bg-gray-600 transition w-full"
             >
               Adventure
