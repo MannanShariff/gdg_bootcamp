@@ -35,7 +35,7 @@ const Quiz = () => {
         <div className="flex flex-col items-center md:items-start text-center md:text-left w-full max-w-md">
 
           <h1 className="text-3xl font-bold mb-6">
-            What does this equal? 👢 + ⛺ = ❓
+            What does this equal? <br /> 👢 + ⛺ = ❓
           </h1>
 
           <div className="grid gap-4 w-full">
