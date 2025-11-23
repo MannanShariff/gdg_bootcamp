@@ -24,7 +24,7 @@ const Schedule = () => {
                     >
                         <div className="w-full md:w-1/2">
                             <img
-                                src="/assets/schedule_day2.jpg"
+                                src="/assets/day-1.png"
                                 alt="Day 1 Schedule"
                                 className="rounded-xl shadow-[0_0_20px_rgba(0,243,255,0.2)] border border-gray-800 hover:scale-105 transition-transform duration-300"
                             />
@@ -51,7 +51,7 @@ const Schedule = () => {
                     >
                         <div className="w-full md:w-1/2">
                             <img
-                                src="/assets/coming_soon.jpg"
+                                src="/assets/day-2.png"
                                 alt="Day 2 Schedule"
                                 className="rounded-xl shadow-[0_0_20px_rgba(188,19,254,0.2)] border border-gray-800 hover:scale-105 transition-transform duration-300"
                             />
@@ -79,7 +79,7 @@ const Schedule = () => {
                     >
                         <div className="w-full md:w-1/2">
                             <img
-                                src="/assets/schedule_day1.jpg"
+                                src="/assets/day-3.png"
                                 alt="Day 3 Schedule"
                                 className="rounded-xl shadow-[0_0_20px_rgba(57,255,20,0.2)] border border-gray-800 hover:scale-105 transition-transform duration-300"
                             />

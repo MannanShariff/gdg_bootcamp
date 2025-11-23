@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="text-center md:text-left">
                     <h3 className="text-2xl font-bold text-white mb-2">Bootcamp 2025</h3>
-                    <p className="text-gray-500">Google Developers Group • On Campus • Dr AIT</p>
+                    <p className="text-gray-500">Google Developer Group • On Campus • Dr AIT</p>
                 </div>
 
                 <div className="flex gap-6">

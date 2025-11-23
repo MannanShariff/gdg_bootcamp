@@ -24,7 +24,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-                        Google Developers Group • On Campus • Dr AIT
+                        Google Developer Group • On Campus • Dr AIT
                     </p>
                 </motion.div>
 
